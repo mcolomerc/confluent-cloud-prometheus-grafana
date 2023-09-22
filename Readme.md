@@ -30,8 +30,6 @@ Prometheus interval is set to `5m` and timeout to `30s`. More than a `5m` interv
 
 * Confluent Cloud Metrics API
 
-Based on [JSON Exporter](https://github.com/prometheus-community/json_exporter)
-
 ```yaml
 scrape_configs:
   - job_name: Confluent Cloud
